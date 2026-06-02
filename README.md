@@ -4,7 +4,7 @@ A clean, responsive, and professional personal portfolio website built as part o
 
 ## 🔗 Live Demo
 
-👉 [https://adxthyaks18.github.io/Portfolio/](https://adxthyaks18.github.io/Portfolio/)
+👉 [https://adxthyaks18.github.io/FUTURE_FS_01/](https://adxthyaks18.github.io/FUTURE_FS_01/)
 
 ---
 
