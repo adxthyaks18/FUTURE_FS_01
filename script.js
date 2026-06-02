@@ -18,11 +18,11 @@ document.addEventListener("DOMContentLoaded", () => {
 const ContactForm = document.getElementById("portfolio-Contact-form");
     const fbSuccessMsg = document.getElementById("fb-success-msg");
 
-    feedbackForm.addEventListener("submit", (e) => {
+    ContactForm.addEventListener("submit", (e) => {
         e.preventDefault();
         
         fbSuccessMsg.style.display = "block";
-        feedbackForm.reset();
+        ContactForm.reset();
 
         setTimeout(() => {
             fbSuccessMsg.style.display = "none";
