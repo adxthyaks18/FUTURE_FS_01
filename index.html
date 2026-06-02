@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adithya K S | Portfolio</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Adithya K S — B.Tech Computer Science Engineering student at St. Joseph's College. Web and app developer skilled in HTML, CSS, JavaScript, Python, and C. View my projects and get in touch.">
+    <meta name="keywords" content="Adithya K S, portfolio, web developer, CSE student, HTML, CSS, JavaScript, Python">
+    <meta name="author" content="Adithya K S">
+
+    <!-- Open Graph (for link previews on WhatsApp, LinkedIn, etc.) -->
+    <meta property="og:title" content="Adithya K S | Portfolio">
+    <meta property="og:description" content="B.Tech CSE student passionate about web and app development. Check out my projects and skills.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adxthyaks18.github.io/Portfolio/">
+    <meta property="og:image" content="https://adxthyaks18.github.io/Portfolio/photo.png">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dark-theme">
+
+   
+   <div id="main-portfolio-content">
+        
+        <nav class="navbar">
+            <div class="nav-branding-group">
+                <span class="nav-logo">ADITHYA K S</span>
+            </div>
+            <div class="nav-controls">
+                <button id="theme-toggle-btn" class="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
+        </nav>
+
+        <header class="profile-hero">
+            <div class="hero-container">
+                <div class="profile-photo-frame">
+                    <img src="photo.png" alt="Adithyan Profile Picture" id="profile-img">
+                </div>
+                <h1 class="profile-name">Adithya K S</h1>
+               <p class="profile-tagline">
+    B.Tech Computer Science Engineering Student
+</p>
+           
+                <div class="resume-actions-tray">
+                    <a href="Adithya_Resume.pdf" target="_blank" class="btn-action"><i class="fas fa-eye"></i> View Resume</a>
+                    <a href="Adithya_Resume.zip" download="Adithya_Resume.zip" class="btn-action secondary"><i class="fas fa-download"></i> Download Resume</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="content-section">
+            <div class="section-inner text-center">
+                <h2 class="section-heading">About Me</h2>
+                <p class="bio-text-short">
+                    I'm a Computer Science Engineering student passionate about web and app development. I enjoy building practical projects, exploring new technologies, and continuously improving my problem-solving skills. My goal is to create user-friendly applications that make a meaningful impact.
+                </p>
+            </div>
+        </section>
+
+
+<section class="content-section">
+    <div class="section-inner text-center">
+        <h2 class="section-heading">Education</h2>
+
+        <h3>B.Tech Computer Science Engineering</h3>
+        <p>St. Joseph's College of Engineering and Technology</p>
+        <p>2025 – 2029</p>
+    </div>
+</section>
+
+        <section class="content-section grey-bg-tweak">
+            <div class="section-inner">
+                <h2 class="section-heading">Projects</h2>
+                <div class="projects-grid">
+                    
+                    <div class="project-card">
+                        <h3>ArtisanHub</h3>
+                        <p>A platform designed for artists to showcase their work, interact with local communities, and communicate through dedicated chat rooms.</p>
+                        <div class="project-links">
+                            <a href="https://adxthyaks18.github.io/ArtisanHub_/" target="_blank"><i class="fas fa-external-link-alt"></i> Live View</a>
+                            <a href="https://github.com/adxthyaks18/ArtisanHub_" target="_blank"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Real-Time Age Tracker</h3>
+                        <p>A web application that calculates and displays age in years, months, days, hours, minutes, and seconds in real time.</p>
+                        <div class="project-links">
+                            <a href="https://adxthyaks18.github.io/age_tracker/" target="_blank"><i class="fas fa-external-link-alt"></i> Live View</a>
+                            <a href="https://github.com/adxthyaks18/age_tracker" target="_blank"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Digital Assignment Portfolio</h3>
+                        <p>My foundational web portfolio architecture built originally for my academic coursework assignment to demonstrate core engineering layouts and responsive frameworks.</p>
+                        <div class="project-links">
+                            <a href="https://adxthyaks18.github.io/Portfolio/" target="_blank"><i class="fas fa-external-link-alt"></i> Live View</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="section-inner text-center">
+                <h2 class="section-heading">Skills</h2>
+                <div class="skills-flex">
+                    <span class="skill-pill">C Programming</span>
+                    <span class="skill-pill">Python Programming</span>
+                    <span class="skill-pill">HTML</span>
+                    <span class="skill-pill">CSS</span>
+                    <span class="skill-pill">JavaScript</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section grey-bg-tweak">
+            <div class="section-inner feedback-container">
+                <h2 class="section-heading text-center">Get In Touch</h2>
+                <p class="contact-sub text-center">Let me know what you think of my space or leave a quick note!</p>
+                
+                <form id="portfolio-Contact-form" class="Contact-form" method="POST" action="https://formsubmit.co/adithyaks662@gmail.com">
+                    <!-- FormSubmit configuration -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://adxthyaks18.github.io/Portfolio/">
+                    <input type="hidden" name="_subject" value="New message from your Portfolio!">
+                    <input type="hidden" name="_template" value="table">
+                    <!-- Honeypot spam trap -->
+                    <input type="text" name="_honey" style="display:none">
+
+                    <div class="form-row">
+                        <input name="name" type="text" placeholder="Enter Your Name" autocomplete="name" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+
+                    <div class="form-row">
+                        <textarea name="message" placeholder="Your Message..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Submit Feedback</button>
+                </form>
+                <div id="fb-success-msg" class="fb-success">Thank you for your feedback!</div>
+            </div>
+        </section>
+
+        <section class="content-section connect-bottom-section">
+            <div class="section-inner text-center">
+                <h2 class="section-heading">Let's Connect</h2>
+                <p class="connect-text">Find me on these professional networks. Let's build something interesting together!</p>
+                
+                <div class="bottom-connect-links">
+                    <a href="https://github.com/adxthyaks18" target="_blank" class="connect-btn github-btn" aria-label="GitHub Profile">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/adithya-k-s-4396a437a" target="_blank" class="connect-btn linkedin-btn" aria-label="LinkedIn Profile">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="portfolio-footer">
+            <p>&copy; 2026 Adithya K S. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
